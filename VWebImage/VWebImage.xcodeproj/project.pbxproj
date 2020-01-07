@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21067B9323C466CD00556FF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067B9223C466CD00556FF9 /* AppDelegate.m */; };
+		21067B9623C466CD00556FF9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067B9523C466CD00556FF9 /* SceneDelegate.m */; };
+		21067B9C23C466CD00556FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21067B9A23C466CD00556FF9 /* Main.storyboard */; };
+		21067B9E23C466CE00556FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21067B9D23C466CE00556FF9 /* Assets.xcassets */; };
+		21067BA123C466CE00556FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21067B9F23C466CE00556FF9 /* LaunchScreen.storyboard */; };
+		21067BA423C466CE00556FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BA323C466CE00556FF9 /* main.m */; };
+		21067BAE23C466CE00556FF9 /* VWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BAD23C466CE00556FF9 /* VWebImageTests.m */; };
+		21067BB923C466CE00556FF9 /* VWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BB823C466CE00556FF9 /* VWebImageUITests.m */; };
+		21067BCF23C466E600556FF9 /* UIImageView+VWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BCA23C466E600556FF9 /* UIImageView+VWebCache.m */; };
+		21067BD023C466E600556FF9 /* NSString+VAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BCB23C466E600556FF9 /* NSString+VAdd.m */; };
+		21067BD123C466E600556FF9 /* VWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BCC23C466E600556FF9 /* VWebImageManager.m */; };
+		21067BD223C466E600556FF9 /* VWebImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BCD23C466E600556FF9 /* VWebImageDownloadOperation.m */; };
+		21067BDC23C4672000556FF9 /* VModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BD423C4671F00556FF9 /* VModel.m */; };
+		21067BDD23C4672000556FF9 /* VViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BD623C4671F00556FF9 /* VViewModel.m */; };
+		21067BDE23C4672000556FF9 /* VCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BD923C4672000556FF9 /* VCustomCollectionViewCell.m */; };
+		21067BDF23C4672000556FF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21067BDA23C4672000556FF9 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21067BAA23C466CE00556FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21067B8623C466CD00556FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21067B8D23C466CD00556FF9;
+			remoteInfo = VWebImage;
+		};
+		21067BB523C466CE00556FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21067B8623C466CD00556FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21067B8D23C466CD00556FF9;
+			remoteInfo = VWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21067B8E23C466CD00556FF9 /* VWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21067B9123C466CD00556FF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21067B9223C466CD00556FF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21067B9423C466CD00556FF9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		21067B9523C466CD00556FF9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		21067B9B23C466CD00556FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21067B9D23C466CE00556FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21067BA023C466CE00556FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21067BA223C466CE00556FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21067BA323C466CE00556FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21067BA923C466CE00556FF9 /* VWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21067BAD23C466CE00556FF9 /* VWebImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWebImageTests.m; sourceTree = "<group>"; };
+		21067BAF23C466CE00556FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21067BB423C466CE00556FF9 /* VWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21067BB823C466CE00556FF9 /* VWebImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWebImageUITests.m; sourceTree = "<group>"; };
+		21067BBA23C466CE00556FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21067BC723C466E600556FF9 /* VWebImageDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWebImageDownloadOperation.h; sourceTree = "<group>"; };
+		21067BC823C466E600556FF9 /* VWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWebImageManager.h; sourceTree = "<group>"; };
+		21067BC923C466E600556FF9 /* NSString+VAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VAdd.h"; sourceTree = "<group>"; };
+		21067BCA23C466E600556FF9 /* UIImageView+VWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+VWebCache.m"; sourceTree = "<group>"; };
+		21067BCB23C466E600556FF9 /* NSString+VAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VAdd.m"; sourceTree = "<group>"; };
+		21067BCC23C466E600556FF9 /* VWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWebImageManager.m; sourceTree = "<group>"; };
+		21067BCD23C466E600556FF9 /* VWebImageDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWebImageDownloadOperation.m; sourceTree = "<group>"; };
+		21067BCE23C466E600556FF9 /* UIImageView+VWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+VWebCache.h"; sourceTree = "<group>"; };
+		21067BD323C4670000556FF9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		21067BD423C4671F00556FF9 /* VModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VModel.m; sourceTree = "<group>"; };
+		21067BD523C4671F00556FF9 /* VCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		21067BD623C4671F00556FF9 /* VViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VViewModel.m; sourceTree = "<group>"; };
+		21067BD723C4671F00556FF9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../../TestProject/VWebImage/VWebImage/ViewController.h; sourceTree = "<group>"; };
+		21067BD823C4671F00556FF9 /* VViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VViewModel.h; sourceTree = "<group>"; };
+		21067BD923C4672000556FF9 /* VCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		21067BDA23C4672000556FF9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../../TestProject/VWebImage/VWebImage/ViewController.m; sourceTree = "<group>"; };
+		21067BDB23C4672000556FF9 /* VModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21067B8B23C466CD00556FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21067BA623C466CE00556FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21067BB123C466CE00556FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21067B8523C466CD00556FF9 = {
+			isa = PBXGroup;
+			children = (
+				21067B9023C466CD00556FF9 /* VWebImage */,
+				21067BAC23C466CE00556FF9 /* VWebImageTests */,
+				21067BB723C466CE00556FF9 /* VWebImageUITests */,
+				21067B8F23C466CD00556FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21067B8F23C466CD00556FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21067B8E23C466CD00556FF9 /* VWebImage.app */,
+				21067BA923C466CE00556FF9 /* VWebImageTests.xctest */,
+				21067BB423C466CE00556FF9 /* VWebImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21067B9023C466CD00556FF9 /* VWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				21067B9123C466CD00556FF9 /* AppDelegate.h */,
+				21067B9223C466CD00556FF9 /* AppDelegate.m */,
+				21067B9423C466CD00556FF9 /* SceneDelegate.h */,
+				21067B9523C466CD00556FF9 /* SceneDelegate.m */,
+				21067BD923C4672000556FF9 /* VCustomCollectionViewCell.m */,
+				21067BD523C4671F00556FF9 /* VCustomCollectionViewCell.h */,
+				21067BD723C4671F00556FF9 /* ViewController.h */,
+				21067BDA23C4672000556FF9 /* ViewController.m */,
+				21067BDB23C4672000556FF9 /* VModel.h */,
+				21067BD423C4671F00556FF9 /* VModel.m */,
+				21067BD823C4671F00556FF9 /* VViewModel.h */,
+				21067BD623C4671F00556FF9 /* VViewModel.m */,
+				21067BC623C466E600556FF9 /* VTool */,
+				21067B9A23C466CD00556FF9 /* Main.storyboard */,
+				21067BD323C4670000556FF9 /* PrefixHeader.pch */,
+				21067B9D23C466CE00556FF9 /* Assets.xcassets */,
+				21067B9F23C466CE00556FF9 /* LaunchScreen.storyboard */,
+				21067BA223C466CE00556FF9 /* Info.plist */,
+				21067BA323C466CE00556FF9 /* main.m */,
+			);
+			path = VWebImage;
+			sourceTree = "<group>";
+		};
+		21067BAC23C466CE00556FF9 /* VWebImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				21067BAD23C466CE00556FF9 /* VWebImageTests.m */,
+				21067BAF23C466CE00556FF9 /* Info.plist */,
+			);
+			path = VWebImageTests;
+			sourceTree = "<group>";
+		};
+		21067BB723C466CE00556FF9 /* VWebImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21067BB823C466CE00556FF9 /* VWebImageUITests.m */,
+				21067BBA23C466CE00556FF9 /* Info.plist */,
+			);
+			path = VWebImageUITests;
+			sourceTree = "<group>";
+		};
+		21067BC623C466E600556FF9 /* VTool */ = {
+			isa = PBXGroup;
+			children = (
+				21067BC723C466E600556FF9 /* VWebImageDownloadOperation.h */,
+				21067BC823C466E600556FF9 /* VWebImageManager.h */,
+				21067BC923C466E600556FF9 /* NSString+VAdd.h */,
+				21067BCA23C466E600556FF9 /* UIImageView+VWebCache.m */,
+				21067BCB23C466E600556FF9 /* NSString+VAdd.m */,
+				21067BCC23C466E600556FF9 /* VWebImageManager.m */,
+				21067BCD23C466E600556FF9 /* VWebImageDownloadOperation.m */,
+				21067BCE23C466E600556FF9 /* UIImageView+VWebCache.h */,
+			);
+			path = VTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21067B8D23C466CD00556FF9 /* VWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21067BBD23C466CE00556FF9 /* Build configuration list for PBXNativeTarget "VWebImage" */;
+			buildPhases = (
+				21067B8A23C466CD00556FF9 /* Sources */,
+				21067B8B23C466CD00556FF9 /* Frameworks */,
+				21067B8C23C466CD00556FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VWebImage;
+			productName = VWebImage;
+			productReference = 21067B8E23C466CD00556FF9 /* VWebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21067BA823C466CE00556FF9 /* VWebImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21067BC023C466CE00556FF9 /* Build configuration list for PBXNativeTarget "VWebImageTests" */;
+			buildPhases = (
+				21067BA523C466CE00556FF9 /* Sources */,
+				21067BA623C466CE00556FF9 /* Frameworks */,
+				21067BA723C466CE00556FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21067BAB23C466CE00556FF9 /* PBXTargetDependency */,
+			);
+			name = VWebImageTests;
+			productName = VWebImageTests;
+			productReference = 21067BA923C466CE00556FF9 /* VWebImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21067BB323C466CE00556FF9 /* VWebImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21067BC323C466CE00556FF9 /* Build configuration list for PBXNativeTarget "VWebImageUITests" */;
+			buildPhases = (
+				21067BB023C466CE00556FF9 /* Sources */,
+				21067BB123C466CE00556FF9 /* Frameworks */,
+				21067BB223C466CE00556FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21067BB623C466CE00556FF9 /* PBXTargetDependency */,
+			);
+			name = VWebImageUITests;
+			productName = VWebImageUITests;
+			productReference = 21067BB423C466CE00556FF9 /* VWebImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21067B8623C466CD00556FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					21067B8D23C466CD00556FF9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					21067BA823C466CE00556FF9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 21067B8D23C466CD00556FF9;
+					};
+					21067BB323C466CE00556FF9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 21067B8D23C466CD00556FF9;
+					};
+				};
+			};
+			buildConfigurationList = 21067B8923C466CD00556FF9 /* Build configuration list for PBXProject "VWebImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21067B8523C466CD00556FF9;
+			productRefGroup = 21067B8F23C466CD00556FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21067B8D23C466CD00556FF9 /* VWebImage */,
+				21067BA823C466CE00556FF9 /* VWebImageTests */,
+				21067BB323C466CE00556FF9 /* VWebImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21067B8C23C466CD00556FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21067BA123C466CE00556FF9 /* LaunchScreen.storyboard in Resources */,
+				21067B9E23C466CE00556FF9 /* Assets.xcassets in Resources */,
+				21067B9C23C466CD00556FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21067BA723C466CE00556FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21067BB223C466CE00556FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21067B8A23C466CD00556FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21067B9323C466CD00556FF9 /* AppDelegate.m in Sources */,
+				21067BA423C466CE00556FF9 /* main.m in Sources */,
+				21067BD123C466E600556FF9 /* VWebImageManager.m in Sources */,
+				21067BDE23C4672000556FF9 /* VCustomCollectionViewCell.m in Sources */,
+				21067BDC23C4672000556FF9 /* VModel.m in Sources */,
+				21067BDF23C4672000556FF9 /* ViewController.m in Sources */,
+				21067BCF23C466E600556FF9 /* UIImageView+VWebCache.m in Sources */,
+				21067BD023C466E600556FF9 /* NSString+VAdd.m in Sources */,
+				21067BDD23C4672000556FF9 /* VViewModel.m in Sources */,
+				21067B9623C466CD00556FF9 /* SceneDelegate.m in Sources */,
+				21067BD223C466E600556FF9 /* VWebImageDownloadOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21067BA523C466CE00556FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21067BAE23C466CE00556FF9 /* VWebImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21067BB023C466CE00556FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21067BB923C466CE00556FF9 /* VWebImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21067BAB23C466CE00556FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21067B8D23C466CD00556FF9 /* VWebImage */;
+			targetProxy = 21067BAA23C466CE00556FF9 /* PBXContainerItemProxy */;
+		};
+		21067BB623C466CE00556FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21067B8D23C466CD00556FF9 /* VWebImage */;
+			targetProxy = 21067BB523C466CE00556FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21067B9A23C466CD00556FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21067B9B23C466CD00556FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21067B9F23C466CE00556FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21067BA023C466CE00556FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21067BBB23C466CE00556FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21067BBC23C466CE00556FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21067BBE23C466CE00556FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9K8YVVH3U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VWebImage/PrefixHeader.pch;
+				INFOPLIST_FILE = VWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcoding.VWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21067BBF23C466CE00556FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9K8YVVH3U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VWebImage/PrefixHeader.pch;
+				INFOPLIST_FILE = VWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcoding.VWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21067BC123C466CE00556FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9K8YVVH3U;
+				INFOPLIST_FILE = VWebImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcoding.VWebImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VWebImage.app/VWebImage";
+			};
+			name = Debug;
+		};
+		21067BC223C466CE00556FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9K8YVVH3U;
+				INFOPLIST_FILE = VWebImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcoding.VWebImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VWebImage.app/VWebImage";
+			};
+			name = Release;
+		};
+		21067BC423C466CE00556FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9K8YVVH3U;
+				INFOPLIST_FILE = VWebImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcoding.VWebImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VWebImage;
+			};
+			name = Debug;
+		};
+		21067BC523C466CE00556FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9K8YVVH3U;
+				INFOPLIST_FILE = VWebImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcoding.VWebImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VWebImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21067B8923C466CD00556FF9 /* Build configuration list for PBXProject "VWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21067BBB23C466CE00556FF9 /* Debug */,
+				21067BBC23C466CE00556FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21067BBD23C466CE00556FF9 /* Build configuration list for PBXNativeTarget "VWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21067BBE23C466CE00556FF9 /* Debug */,
+				21067BBF23C466CE00556FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21067BC023C466CE00556FF9 /* Build configuration list for PBXNativeTarget "VWebImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21067BC123C466CE00556FF9 /* Debug */,
+				21067BC223C466CE00556FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21067BC323C466CE00556FF9 /* Build configuration list for PBXNativeTarget "VWebImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21067BC423C466CE00556FF9 /* Debug */,
+				21067BC523C466CE00556FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21067B8623C466CD00556FF9 /* Project object */;
+}
